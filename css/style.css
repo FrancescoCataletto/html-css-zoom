@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+main{
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+
+#center{
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#center img{
+    padding: 5px 3px;
+}
