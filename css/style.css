@@ -1,11 +1,13 @@
 /* HEADER */
 
-#top div{
+#top button{
     color: white;
     background-color: rgb(74, 74, 74);
     padding: 7px;
     margin: 5px 10px 0 0;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 /* MAIN */
