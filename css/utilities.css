@@ -4,10 +4,6 @@
     height: 100px;
 }
 
-footer{
-    color: white;
-}
-
 /*/ DEBUG */
 
 .d-flex{
@@ -16,6 +12,14 @@ footer{
 
 .space-between{
     justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
 }
 
 .align-center{
