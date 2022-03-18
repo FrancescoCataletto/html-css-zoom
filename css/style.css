@@ -2,6 +2,8 @@ body{
     background-color: black;
 }
 
+/* MAIN */
+
 main{
     height: calc(100vh - 200px);
     overflow-y: scroll;
@@ -16,4 +18,18 @@ main{
 
 #center img{
     padding: 5px 3px;
+}
+
+.images{
+    position: relative;
+}
+
+.mic-name{
+    color: white;
+    position: absolute;
+    padding: 5px 5px;
+    top: 88%;
+    left: 2%;
+    opacity: 0.8;
+    background-color: rgb(100, 112, 124);
 }
