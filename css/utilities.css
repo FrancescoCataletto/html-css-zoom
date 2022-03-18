@@ -4,10 +4,22 @@
     height: 100px;
 }
 
+footer{
+    color: white;
+}
+
 /*/ DEBUG */
 
 .d-flex{
     display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .flex-end{
