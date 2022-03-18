@@ -63,6 +63,10 @@ footer{
     padding-bottom: 15px;
 }
 
+.utility .fa-chevron-up{
+    font-size: 12px;
+}
+
 #right-footer-flex button{
     color: rgb(246, 18, 43);
     background-color: rgb(74, 74, 74);
@@ -71,4 +75,8 @@ footer{
     font-size: 12px;
     border: none;
     cursor: pointer;
+}
+
+#share-screen{
+    color: rgb(75, 200, 0);
 }
