@@ -14,7 +14,7 @@
 
 main{
     height: calc(100vh - 200px);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #center{
@@ -45,6 +45,7 @@ main{
 /* FOOTER */
 footer{
     background-color: rgb(34, 34, 34);
+    overflow-x: auto;
 }
 
 .utility{
@@ -79,4 +80,10 @@ footer{
 
 #share-screen{
     color: rgb(75, 200, 0);
+}
+
+#left-footer-flex, 
+#middle-footer-flex, 
+#right-footer-flex{
+    flex-shrink: 0;
 }
